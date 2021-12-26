@@ -20,7 +20,7 @@ bot.remove_command("help") # Borra el comando por defecto !help
 @bot.command()
 async def sofahc(ctx,  keko1, keko2):
     await ctx.message.delete()
-    await ctx.send("Generando sofa vip...", delete_after=0)
+    await ctx.send("Generando sofa vip helado...", delete_after=0)
     time.sleep(3)
     
     response = requests.get(f"https://www.habbo.es/api/public/users?name={keko1}")
